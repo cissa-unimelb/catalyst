@@ -7,7 +7,7 @@ import '../assets/sass/timeline.css';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
-import SideBar from '../components/SideBar';
+import Sidebar from '../components/Sidebar';
 
 import banner from '../assets/images/tech.jpg';
 
@@ -20,7 +20,7 @@ const sections = [
 ];
 const IndexPage = () => (
   <Layout>
-    <SideBar sections={sections} />
+    <Sidebar sections={sections} />
     <div id="wrapper">
       <div id="main">
         <section id="one">
