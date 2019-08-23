@@ -4,6 +4,7 @@ import Header from './Header';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import config from '../../../config';
+
 const pic = require('../../assets/img/logo.png');
 
 export default function Sidebar({ sections = [] }) {
