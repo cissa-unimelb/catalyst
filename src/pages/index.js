@@ -75,7 +75,7 @@ const IndexPage = () => {
                 <p>Future of Wellness</p>
               </header>
               <p>
-                Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus
+                Faucibu sed lobortis aliquam lorem blandit. Lorem eu nunc metus
                 col. Commodo id in arcu ante lorem ipsum sed accumsan erat
                 praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo.
                 Vis aliquet tortor ultricies non ante erat nunc integer eu ante
