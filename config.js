@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:webmaster@cissa.org.au',
+      url: 'mailto:events@cissa.org.au',
     },
   ],
 };

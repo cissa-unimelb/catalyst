@@ -54,7 +54,7 @@ const IndexPage = () => {
     e.preventDefault();
     await axios.post('https://api.cissa.org.au/contact', {
       ...formData,
-      recipient: 'webmaster@cissa.org.au',
+      recipient: 'eventsg@cissa.org.au',
       'g-recaptcha-response': recaptchaRef.current.getValue(),
     });
     recaptchaRef.current.reset();
