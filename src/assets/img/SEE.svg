@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="1200px" viewBox="0 0 1200 1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SEE Logo</title>
+    <g id="SEE-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" cx="601" cy="600" r="375"></circle>
+        <text id="SEE" font-family="SFProDisplay-Bold, SF Pro Display" font-size="300" font-weight="bold" letter-spacing="4.22405" fill="#894A9C">
+            <tspan x="327" y="683">SEE</tspan>
+        </text>
+        <text id="SOCIETY-FOR-ELECTRON" font-family="SFProDisplay-Bold, SF Pro Display" font-size="40" font-weight="bold" letter-spacing="0.563206667" fill="#894A9C">
+            <tspan x="342.253945" y="745">SOCIETY FOR ELECTRONIC</tspan>
+            <tspan x="436.233688" y="793">ENTERTAINMENT</tspan>
+        </text>
+    </g>
+</svg>

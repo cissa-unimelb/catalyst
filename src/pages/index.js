@@ -4,21 +4,21 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
-import ReCAPTCHA from 'react-google-recaptcha';
 import '../assets/sass/timeline.css';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import Sidebar from '../components/Sidebar';
 
-import banner from '../assets/images/tech.jpg';
+import banner from '../assets/images/unijam_banner_final.png';
+import ea from '../assets/img/Electronic_Arts_2020.svg';
 
 const sections = [
   { id: 'one', name: 'About' },
   { id: 'two', name: 'Prizes' },
   { id: 'three', name: 'Timeline' },
   { id: 'four', name: 'Sponsors' },
-  { id: 'five', name: 'FAQs' },
+  { id: 'five', name: 'FAQs' }
 ];
 
 const IndexPage = () => {
@@ -76,16 +76,45 @@ const IndexPage = () => {
             </div>
             <div className="container">
               <header className="major">
-                <h2>Catalyst 2019</h2>
-                <p>Future of Wellness</p>
+                <h2>UniJam 2020</h2>
+                <p>About</p>
               </header>
               <p>
-                Hello sed lobortis aliquam lorem blandit. Lorem eu nunc metus
-                col. Commodo id in arcu ante lorem ipsum sed accumsan erat
-                praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo.
-                Vis aliquet tortor ultricies non ante erat nunc integer eu ante
-                ornare amet commetus vestibulum blandit integer in curae ac
-                faucibus integer non. Adipiscing cubilia elementum.
+                UniJam is an online computer game development hackathon, organised in collaboration with the Computing and Information Systems Students Association (CISSA), Society for Electronic Entertainment (SEE), Anime and Manga Club (AMC), and Community for Digital Entertainment Creation (CODEC). 
+              </p>
+              <p>
+                Students form teams and create a computer game of their design and choosing from scratch within an allotted period of time. Said games will be submitted and hosted online, judged by the committees of participating clubs and subsequently voted on by the general public.
+              </p>
+              <p>
+                Students are given creative freedom in terms of themes (barring inappropriate content), and submissions will be judged on a variety of factors, including but not limited to:
+                <ul>
+                  <li>
+                    Creativity
+                  </li>
+                  <li>
+                    User Experience (UX)
+                  </li>
+                  <li>
+                    Playability
+                  </li>
+                  <li>
+                    Code Quality
+                  </li>
+                </ul>
+              </p>
+              <p>
+                UniJam promises to offer students the following opportunities:
+                <ul>
+                  <li>
+                    To practise their skills and display their strengths within various disciplines (software development, game design, visual arts) in a competitive event
+                  </li>
+                  <li>
+                    To apply their skills alongside other related disciplines
+                  </li>
+                  <li>
+                    To develop teamwork skills
+                  </li>
+                </ul>
               </p>
             </div>
           </section>
@@ -93,19 +122,19 @@ const IndexPage = () => {
           <section id="two">
             <div className="container">
               <h3>Prizes</h3>
-              {/* <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer lorem ipsum dolor sit amet.
-            </p>
-            <ul className="feature-icons">
+              <ul>
+                <li>1st Place ($2000)</li>
+                <li> 2nd Place ($1000) </li>
+                <li> 3rd Place ($500)</li>
+              </ul>
+            {/*<ul className="feature-icons">
               <li className="fa-code">Write all the code</li>
               <li className="fa-cubes">Stack small boxes</li>
               <li className="fa-book">Read books and stuff</li>
               <li className="fa-coffee">Drink much coffee</li>
               <li className="fa-bolt">Lightning bolt</li>
               <li className="fa-users">Shadow clone technique</li>
-            </ul> */}
+              </ul>} */}
             </div>
           </section>
 
@@ -170,6 +199,12 @@ const IndexPage = () => {
           <section id="four">
             <div className="container">
               <h3>Sponsors</h3>
+              <h4><img src={ea} alt="" height="40"/></h4>
+              <p>
+                Electronic Arts Inc (EA) is a global leader in digital interactive entertainment. EA is in the business of developing and publishing sports video games, making them the perfect sponsor of our game jam event this August. 
+                <br/>
+                Read more about EA <a className="text" href="https://www.ea.com/about">here</a>.
+              </p>
               {/* <h4>Text</h4>
             <p>
               This is <b>bold</b> and this is <strong>strong</strong>. This is{' '}
@@ -200,9 +235,9 @@ const IndexPage = () => {
                 <table>
                   <tbody>
                     <tr>
-                      <td>What is Catalyst?</td>
+                      <td>What is UniJam?</td>
                       <td>
-                        Catalyst is CISSA's FREE hackathon! That's right - it's
+                        UniJam is CISSA's FREE game development hackathon! That's right - it's
                         100% free! The only thing you need to do is APPLY by
                         filling out the relevant form at the top of this
                         website.
@@ -214,7 +249,7 @@ const IndexPage = () => {
                         A hackathon is an event in which coders and designers
                         get together and spend many hours hacking to create a
                         prototype that is to be presented to a panel of judges.
-                        Catalyst is a weekend of coding. So essentially, a
+                        UniJam is a weekend of coding. So essentially, a
                         hackathon is a fun-filled weekend of coding and
                         prototyping. A code-fest!
                       </td>
@@ -223,12 +258,12 @@ const IndexPage = () => {
                       <td>What are the prizes?</td>
                       <td>
                         It wouldn't be a hackathon without prizes!
-                        {/* <ul>
-                        <li>1st Place ($2000)</li>
-                        <li> 2nd Place ($1000) </li>
-                        <li> 3rd Place ($500)</li>
-                      </ul>
-                      Extras (TBC, but potentially):
+                        <ul>
+                          <li>1st Place ($2000)</li>
+                          <li> 2nd Place ($1000) </li>
+                          <li> 3rd Place ($500)</li>
+                        </ul>
+                      {/*Extras (TBC, but potentially):
                       <ul>
                         <li>Go Pro</li>
                         <li>Google Home Mini</li>
@@ -278,79 +313,18 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-                Integer eu ante ornare amet commetus vestibulum blandit integer
-                in curae ac faucibus integer non. Adipiscing cubilia elementum
-                integer. Integer eu ante ornare amet commetus.
+                Feel free to reach out to us via email!
               </p>
-              <form onSubmit={handleSubmit}>
-                <div className="row gtr-uniform">
-                  <div className="col-6 col-12-xsmall">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                      value={formData.name}
-                      onChange={updateFormData}
-                      required
-                    />
-                  </div>
-                  <div className="col-6 col-12-xsmall">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                      value={formData.email}
-                      onChange={updateFormData}
-                      required
-                    />
-                  </div>
-                  <div className="col-12">
-                    <input
-                      type="text"
-                      name="subject"
-                      id="subject"
-                      placeholder="Subject"
-                      value={formData.subject}
-                      onChange={updateFormData}
-                      required
-                    />
-                  </div>
-                  <div className="col-12">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="6"
-                      value={formData.message}
-                      onChange={updateFormData}
-                      required
-                    />
-                  </div>
-                  <div className="col-12">
-                    <ul className="actions stacked">
-                      <li>
-                        <ReCAPTCHA
-                          ref={recaptchaRef}
-                          sitekey="6Ldrc7QUAAAAAB8riU4NGjtnc3LUFlYhpSF5-4Q8"
-                          onChange={res => {
-                            setCaptchaSolved(res !== null);
-                          }}
-                        />
-                      </li>
-                      <li>
-                        <input
-                          type="submit"
-                          className="primary"
-                          value="Send Message"
-                          disabled={!isCaptchaSolved}
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </form>
+              <p>
+                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <a className="text" href="mailto:events@cissa.org.au">events@cissa.org.au</a> <br/> <br/>
+                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <a className="text" href="mailto:seegamers@gmail.com">seegamers@gmail.com</a> <br/> <br/>
+                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <a className="text" href="mailto:enquiries@amc.moe">enquiries@amc.moe</a> <br/> <br/>
+                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <a className="text" href="mailto:codec.unimelb@gmail.com">codec.unimelb@gmail.com</a>
+              </p>
             </div>
           </section>
         </div>

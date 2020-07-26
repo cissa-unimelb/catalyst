@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Footer from './Footer';
+// import Footer from './Footer';
 import Header from './Header';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import config from '../../../config';
 
-const pic = require('../../assets/img/logo.png');
+const pic = require('../../assets/img/logo.svg');
 
 export default function Sidebar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);
@@ -22,7 +22,7 @@ export default function Sidebar({ sections = [] }) {
           heading={config.heading}
         />
         <Nav sections={sections} />
-        <Footer socialLinks={config.socialLinks} />
+        {/* <Footer socialLinks={config.socialLinks} /> */}
       </section>
     </div>
   );
