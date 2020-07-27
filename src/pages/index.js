@@ -316,13 +316,13 @@ const IndexPage = () => {
                 Feel free to reach out to us via email!
               </p>
               <p>
-                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:events@cissa.org.au">events@cissa.org.au</a> <br/> <br/>
-                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:seegamers@gmail.com">seegamers@gmail.com</a> <br/> <br/>
-                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:enquiries@amc.moe">enquiries@amc.moe</a> <br/> <br/>
-                <i class="fa fa-envelope-o" aria-hidden="true" style="font-size:28px">&nbsp;</i>
+                <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:codec.unimelb@gmail.com">codec.unimelb@gmail.com</a>
               </p>
             </div>
