@@ -713,9 +713,9 @@ input[type='radio'] {
 
 /* Image */
 
-.image_footer {
+.image_with_border {
   border-radius: _size(border-radius);
-  border: solid #020A23 0.25px;
+  border: solid lightgrey 0.25px;
   display: inline-block;
   position: relative;
 }
