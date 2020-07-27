@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import MetaTags from 'react-meta-tags';
 import axios from 'axios';
 import {
   VerticalTimeline,
@@ -66,6 +67,7 @@ const IndexPage = () => {
   };
 
   return (
+    <div className="wrapper">
     <MetaTags>
       <title>UniJam</title>
       <meta charset="utf-8" />
@@ -341,6 +343,7 @@ const IndexPage = () => {
         <PageFooter />
       </section>
     </Layout>
+  </div>
   );
 };
 
