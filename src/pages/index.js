@@ -66,6 +66,14 @@ const IndexPage = () => {
   };
 
   return (
+    <MetaTags>
+      <title>UniJam</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta id="meta-description" name="description" content="Game Development Hackathon" />
+      <meta id="og-title" property="og:title" content="UniJam" />
+      <meta id="og-image" property="og:image" content="../assets/img/logo.svg" />
+    </MetaTags>
     <Layout>
       <Sidebar sections={sections} />
       <div id="wrapper">
