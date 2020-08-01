@@ -26,7 +26,8 @@ const sections = [
   { id: 'four', name: 'Sponsors' },
   { id: 'five', name: 'FAQs' },
   { id: 'six', name: 'Sign Up' },
-  { id: 'seven', name: 'Submission Instructions' }
+  { id: 'seven', name: 'Submit Your Game' },
+  { id: 'eight', name: 'Contact Us' }
 ];
 
 const IndexPage = () => {
@@ -141,13 +142,18 @@ const IndexPage = () => {
             <div className="container">
               <h3>Prizes</h3>
               <p>
-                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences of prize choice. Runner-up prizes are also available for most related to theme, most enjoyable and most creative.
+                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences from a prize pool that includes:
               </p>
               <ul>
                 <li>JB-Hi-Fi gift cards</li>
                 <li>EA video games</li>
                 <li>Crunchyroll memberships</li>
                 <li>UberEats coupons</li>
+              </ul>
+              <p>
+                Runner-up prizes are also available for most related to theme, most enjoyable and most creative. The prizes for these categories include:
+              </p>
+              <ul>
                 <li>Anime-related video games</li>
                 <li>Abode Creative Cloud memberships</li>
               </ul>
@@ -249,9 +255,9 @@ const IndexPage = () => {
               <h3>Headline Partner</h3>
               <h4><img src={fm} alt="" width="100"/></h4>
               <p>
-                Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect sponsor of our game jam event this August. 
+                Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect headline partner of our game jam event. 
                 <br/>
-                Read more about Firemonkeys <a className="text" href="https://ea.com/ea-studios/firemonkeys">here</a>.
+                Read more about Firemonkeys <a className="text" href="https://ea.com/ea-studios/firemonkeys" target="_onblank">here</a>.
               </p>
 
               <h3>Diamond</h3>
@@ -302,8 +308,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
-                        UniJam is a free game development hackathon! That's right - it's
-                        100% free! The only thing you need to do is sign up for the event by filling out the relevant form outlined in the <u>Sign Up</u> section of this page!
+                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <u>Sign Up</u> section of this page!
                       </td>
                     </tr>
                     <tr>
@@ -336,6 +341,46 @@ const IndexPage = () => {
                         Just head over to the <u>Sign Up</u> section of this page and follow the instructions :)
                       </td>
                     </tr>
+                    <tr>
+                      <td>What if I don't have teammates?</td>
+                      <td>
+                        No worries! Just head over to the UniJam Discord Server where you can reach out to others also looking for a team!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>How do I submit my game?</td>
+                      <td>
+                        You will find a step-by-step instruction guide in the <u>Submit Your Game</u> section of the page!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>How will the prizes be distributed?</td>
+                      <td>
+                        If you win a prize, you will be contacted via email and asked to provide a mailing address. We will then ship your prize(s) to you. How exciting!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Who should I ask for further information?</td>
+                      <td>
+                        Head over to the <u>Contact Us</u> section of this page :)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>What should I bear in mind when making the game?</td>
+                      <td>
+                        <ol>
+                          <li>Include executable file</li>
+                          <li>Specify how to run it</li>
+                          <li>It is recommended to film the game play and include a link to the video in the itch.io description (5 minute time limit)</li>
+                        </ol>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>What can't I include in the game?</td>
+                      <td>
+                        Nothing you would be ashamed to show your grandma :)
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -343,7 +388,7 @@ const IndexPage = () => {
           </section>
           <section id="six">
             <div className="container">
-              <h3>Sign up</h3>
+              <h3>Sign Up</h3>
               <p>
                 <a className="text" href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
               </p>
@@ -351,27 +396,30 @@ const IndexPage = () => {
                 You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
               </p>
               <p>
-                If you are signing up as an individual, complete the form and watch this space: we will have a Unijam Discord server where you can reach out to others also looking for a team! 
+                If you do not have a team, head over to the UniJam Discord server where you can reach out to others also looking for a team! 
               </p>
               <p>
                 <strong>Registration closes on the 16th of August.</strong>
               </p>
               <p>
-                Ready to submit your game? See the <u>Submission Instructions</u> section of this page!
+                Ready to submit your game? See the <u>Submit Your Game</u> section of this page!
               </p>
             </div>
           </section>
           <section id="seven">
             <div className="container" >
-              <h3>How to submit your game</h3>
+              <h3>Submit Your Game</h3>
               <p>
-                There are certain requirements that teams are asked to follow in the submission of their games. For this reason, we have put together a step-by-step instruction guide to demonstrate the submission process.
+                Teams are expected to follow the below how-to guide to submit their game. 
               </p>
               <p>
                 <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
-                We encourage you to read and understand the submission guidelines well before it becomes time to submit.
+                This step-by-step information guide highlights the restrictions we place on submissions and demonstrates the submission process.
+              </p>
+              <p>
+                We strongly encourage you to read and understand the submission guidelines well before it becomes time to submit.
               </p>
             </div>
           </section>
@@ -379,9 +427,21 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-                Feel free to reach out to us via email!
+                Got a question that has not been covered by the <u>FAQ</u> section of this page?
+              </p>
+              <p>Feel free to reach out to us via any of our Facebook pages!
               </p>
               <p>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://facebook.com/cissa.unimelb/" target="_onblank">CISSA</a> <br/> <br/>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://facebook.com/codec.unimelb/" target="_onblank">CODEC</a> <br/> <br/>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://www.facebook.com/UoMAMC/" target="_onblank">AMC</a> <br/> <br/>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://facebook.com/groups/seegamers/" target="_onblank">SEE</a> <br/> <br/>
+              </p>
+              {/* <p>
                 <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:events@cissa.org.au">events@cissa.org.au</a> <br/> <br/>
                 <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
@@ -390,7 +450,7 @@ const IndexPage = () => {
                 <a className="text" href="mailto:enquiries@amc.moe">enquiries@amc.moe</a> <br/> <br/>
                 <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:codec.unimelb@gmail.com">codec.unimelb@gmail.com</a>
-              </p>
+              </p> */}
             </div>
           </section>
         </div>
