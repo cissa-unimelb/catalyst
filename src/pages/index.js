@@ -14,6 +14,18 @@ import Sidebar from '../components/Sidebar';
 import banner from '../assets/images/unijam_banner_final.png';
 import fm from '../assets/img/firemonkeys_logo.png';
 import msft from '../assets/img/sponsors/microsoft.png';
+import anz from '../assets/img/sponsors/anz.png';
+import rome2rio from '../assets/img/sponsors/rome2rio.png';
+import imc from '../assets/img/sponsors/imc.png';
+import telstra from '../assets/img/sponsors/telstra_new.png';
+import atlassian from '../assets/img/sponsors/atlassian.png';
+import akuna from '../assets/img/sponsors/akuna.png';
+import deloitte from '../assets/img/sponsors/deloitte.png';
+import mcgrath from '../assets/img/sponsors/mcgrathnicol.png';
+import woodside from '../assets/img/sponsors/woodside.png';
+import facebook from '../assets/img/sponsors/facebook.png';
+import ey from '../assets/img/sponsors/ey.png';
+import commbank from '../assets/img/sponsors/commbank.png';
 import janest from '../assets/img/sponsors/jane street.png';
 import canva from '../assets/img/sponsors/canva-ar21.svg';
 import optiver from '../assets/img/sponsors/optiver.png';
@@ -252,7 +264,7 @@ const IndexPage = () => {
           </section>
           <section id="four">
             <div className="container">
-              <h3>Headline Partner</h3>
+              <h3>Prizes By</h3>
               <h4><img src={fm} alt="" width="100"/></h4>
               <p>
                 Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect headline partner of our game jam event. 
@@ -260,21 +272,42 @@ const IndexPage = () => {
                 Read more about Firemonkeys <a className="text" href="https://ea.com/ea-studios/firemonkeys" target="_onblank">here</a>.
               </p>
 
-              <h3>Diamond</h3>
+              <h3>Sponsors</h3>
+              <h4>Diamond</h4>
               <h4>
-                <img src={msft} alt="" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={msft} alt="" height="70"/>
+                <img src={msft} alt="" height="60"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={anz} alt="" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
-
-              <h3>Platinum</h3>
+              <hr/>
+              <h4>Platinum</h4>
               <h4>
-                <img src={janest} alt="" height="55"/>
+                <img src={janest} alt="" height="40"/>
               </h4>
-            
-              <h3>Gold</h3>
+              <hr/>
+              <h4>Gold</h4>
               <h4>
-                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>
+                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={rome2rio} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={imc} alt="" width="100"/>
                 <br/>
-                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>
+                <img src={telstra} alt="" width="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={atlassian} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={akuna} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={deloitte} alt="" width="100"/>
+              </h4>
+              <hr/>
+              <h4>Silver</h4>
+              <h4>
+                <img src={mcgrath} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={woodside} alt="" width="120"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={facebook} alt="" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={ey} alt="" width="50"/>
+              </h4>
+              <hr/>
+              <h4>Bronze</h4>
+              <h4>
+                <img src={commbank} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
               {/* <h4>Text</h4>
             <p>
