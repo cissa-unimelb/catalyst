@@ -192,7 +192,7 @@ const IndexPage = () => {
                   date="23rd August"
                   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                  <h3 className="vertical-timeline-element-title">Friday</h3>
+                  <h3 className="vertical-timeline-element-title">Sunday</h3>
                   <h4 className="vertical-timeline-element-subtitle">Development Week Ends</h4>
                   You're done! All games are submitted.
 {/*                   <p>
@@ -219,11 +219,11 @@ const IndexPage = () => {
           <section id="four">
             <div className="container">
               <h3>Sign up</h3>
-              <p style={{fontWeight: 'bold'}}><a className="text" href="https://docs.google.com/forms/d/e/1FAIpQLScBo1ITQc0iD-rm_llcT1D4WEwtJc7X43ZjmZNRWVb0EuX71g/viewform?usp=sf_link">Click here to sign up!</a></p>
+              <p style={{fontWeight: 'bold'}}><a className="text" href="https://docs.google.com/forms/d/e/1FAIpQLScBo1ITQc0iD-rm_llcT1D4WEwtJc7X43ZjmZNRWVb0EuX71g/viewform?usp=sf_link">Click here to sign up your team!</a></p>
 
               <p>You are welcome to organise a team of up to four before the event. Only one member of each team should complete the above form.</p>
 
-              <p>If you are signing up as an individual, complete the form and keep your eyes on this space: we'll soon have a UniJam Discord server where you can reach out to others also looking for a team!</p>
+              <p>If you do not have a team, keep your eyes on this space. we'll soon have a UniJam Discord server wheryou can reach out to others also looking for a team.</p>
 
               <p>To submit your game, follow the <a className="text" href="https://drive.google.com/file/d/1WcJVRGmTXb6dYZnuBhPH4vMF41SZGFA2/view">instructions here.</a></p>
 

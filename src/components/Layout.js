@@ -45,7 +45,7 @@ class Layout extends Component {
               htmlAttributes={{ lang: 'en', amp: undefined }}
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Eventually' },
+                { name: 'description', content: 'Hackathon at the University of Melbourne' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             />
