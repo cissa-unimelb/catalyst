@@ -12,14 +12,21 @@ import PageFooter from '../components/PageFooter';
 import Sidebar from '../components/Sidebar';
 
 import banner from '../assets/images/unijam_banner_final.png';
-import ea from '../assets/img/Electronic_Arts_2020.svg';
+import fm from '../assets/img/firemonkeys_logo.png';
+import msft from '../assets/img/sponsors/microsoft.png';
+import janest from '../assets/img/sponsors/jane street.png';
+import canva from '../assets/img/sponsors/canva-ar21.svg';
+import optiver from '../assets/img/sponsors/optiver.png';
+import submission_guide from '../assets/docs/UNIJAM_Game_Submission_Guide.pdf';
 
 const sections = [
   { id: 'one', name: 'About' },
   { id: 'two', name: 'Prizes' },
   { id: 'three', name: 'Timeline' },
   { id: 'four', name: 'Sponsors' },
-  { id: 'five', name: 'FAQs' }
+  { id: 'five', name: 'FAQs' },
+  { id: 'six', name: 'Sign Up' },
+  { id: 'seven', name: 'Submission Instructions' }
 ];
 
 const IndexPage = () => {
@@ -88,42 +95,42 @@ const IndexPage = () => {
             <div className="container">
               <header className="major">
                 <h2>UniJam 2020</h2>
-                <p>About</p>
               </header>
+              <h3>About</h3>
               <p>
-                UniJam is an online computer game development hackathon, organised in collaboration with the Computing and Information Systems Students Association (CISSA), Society for Electronic Entertainment (SEE), Anime and Manga Club (AMC), and Community for Digital Entertainment Creation (CODEC). 
+                UniJam is an online computer game development hackathon for students at the University of Melbourne. The event is organised in collaboration with the Computing and Information Systems Students Association (<a className="text" href="https://cissa.org.au" target="_onblank">CISSA</a>), Society for Electronic Entertainment (<a className="text" href="https://facebook.com/groups/seegamers/" target="_onblank">SEE</a>), Anime and Manga Club (<a className="text" href="https://amc.moe" target="_onblank">AMC</a>), and Community for Digital Entertainment Creation (<a className="text" href="https://facebook.com/codec.unimelb/" target="_onblank">CODEC</a>). 
               </p>
               <p>
-                Students form teams and create a computer game of their design and choosing from scratch within an allotted period of time. Said games will be submitted and hosted online, judged by the committees of participating clubs and subsequently voted on by the general public.
+                For the hackathon, teams of up to four students develop and bring their own computer game to life. Afterwards, each creation will be submitted online, judged by participating clubs and made available to download.
               </p>
               <p>
-                Students are given creative freedom in terms of themes (barring inappropriate content), and submissions will be judged on a variety of factors, including but not limited to:
+                Students are given creative freedom around this year's theme, '<i>connections</i>', and are encouraged to get inspired creating art assets, music, and unique game features. Submissions will be judged on a variety of factors, including:
                 <ul>
-                  <li>
-                    Creativity
-                  </li>
-                  <li>
-                    User Experience (UX)
-                  </li>
                   <li>
                     Playability
                   </li>
                   <li>
-                    Code Quality
+                    Originality
+                  </li>
+                  <li>
+                    Relatedness to theme
                   </li>
                 </ul>
               </p>
               <p>
-                UniJam promises to offer students the following opportunities:
+                UniJam offers students an opportunity to:
                 <ul>
                   <li>
-                    To practise their skills and display their strengths within various disciplines (software development, game design, visual arts) in a competitive event
+                    Practise their skills and display their strengths within various disciplines (software development, game design, visual arts).
                   </li>
                   <li>
-                    To apply their skills alongside other related disciplines
+                    Learn and apply new skills and techniques related to game development.
                   </li>
                   <li>
-                    To develop teamwork skills
+                    Work as a team.
+                  </li>
+                  <li>
+                    Create an exciting game!
                   </li>
                 </ul>
               </p>
@@ -133,10 +140,16 @@ const IndexPage = () => {
           <section id="two">
             <div className="container">
               <h3>Prizes</h3>
+              <p>
+                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences of prize choice. Runner-up prizes are also available for most related to theme, most enjoyable and most creative.
+              </p>
               <ul>
-                <li>1st Place ($2000)</li>
-                <li> 2nd Place ($1000) </li>
-                <li> 3rd Place ($500)</li>
+                <li>JB-Hi-Fi gift cards</li>
+                <li>EA video games</li>
+                <li>Crunchyroll memberships</li>
+                <li>UberEats coupons</li>
+                <li>Anime-related video games</li>
+                <li>Abode Creative Cloud memberships</li>
               </ul>
             {/*<ul className="feature-icons">
               <li className="fa-code">Write all the code</li>
@@ -155,34 +168,58 @@ const IndexPage = () => {
               <VerticalTimeline>
                 <VerticalTimelineElement
                   className=""
-                  date="31st August"
+                  date="&nbsp;&nbsp;&nbsp;&nbsp;3 August - 16 August"
                   iconStyle={{
-                    background: 'rgb(243, 150, 120)',
-                    color: '#fff',
+                    background: '#ff8c14',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Saturday</h3>
-                  <h4 className="vertical-timeline-element-subtitle">Day 1</h4>
-                  <p>
-                    <b>9:00am - 10:30am: </b>Sign-in, Morning Tea
-                    <br />
-                    <b>10:30am - 11:00am: </b>Opening presentation
-                    <br />
-                    <b>11:00am - 12:00pm: </b> Hacking
-                    <br />
-                    <b>12:30pm - 1:30pm</b> Lunch
-                    <br />
-                    <b>1:30pm - 6:00pm</b> Hacking (Snacks provided)
-                    <br />
-                    <b>6:00pm - 7:00pm</b> Dinner
-                    <br />
-                    <b>7:00pm - 8:00pm</b> Hacking
-                  </p>
+                  <h3 className="vertical-timeline-element-title">Monday, Week 1 - Sunday, Week 2</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Registration and Team Formation Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
+                  date="17 August - 23 August&nbsp;&nbsp;&nbsp;&nbsp;"
+                  iconStyle={{
+                    background: '#218c14',
+                  }}
+                >
+                  <h3 className="vertical-timeline-element-title">Monday, Week 3 - Sunday, Week 3</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Development Period</h4>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                  className=""
+                  date="&nbsp;&nbsp;&nbsp;&nbsp;24 August - 27 August"
+                  iconStyle={{
+                    background: '#14218c',
+                  }}
+                >
+                  <h3 className="vertical-timeline-element-title">Monday, Week 4 - Thursday, Week 4</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Committee Shortlisting</h4>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                  className=""
+                  date="28 August - 4 September&nbsp;&nbsp;&nbsp;&nbsp;"
+                  iconStyle={{
+                    background: '#8c1421',
+                  }}
+                >
+                  <h3 className="vertical-timeline-element-title">Friday, Week 4 - Friday, Week 5</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Final 5 Teams Announced and Public Voting Period</h4>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                  className=""
+                  date="&nbsp;&nbsp;&nbsp;&nbsp;9 September"
+                  iconStyle={{
+                    background: '#7f148c',
+                  }}
+                >
+                  <h3 className="vertical-timeline-element-title">Wednesday, Week 6</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Winner Is Announced</h4>
+                </VerticalTimelineElement>
+                {/* <VerticalTimelineElement
+                  className=""
                   date="1st September"
-                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                  iconStyle={{ background: 'rgb(33, 140, 20)' }}
                 >
                   <h3 className="vertical-timeline-element-title">Sunday</h3>
                   <h4 className="vertical-timeline-element-subtitle">Day 2</h4>
@@ -203,19 +240,36 @@ const IndexPage = () => {
                     <br />
                     <b>5:30pm - 6:00pm: </b>Wrap-up & Goodbye!
                   </p>
-                </VerticalTimelineElement>
+                </VerticalTimelineElement> */}
               </VerticalTimeline>
             </div>
           </section>
           <section id="four">
             <div className="container">
-              <h3>Sponsors</h3>
-              <h4><img src={ea} alt="" height="40"/></h4>
+              <h3>Headline Partner</h3>
+              <h4><img src={fm} alt="" width="100"/></h4>
               <p>
-                Electronic Arts Inc (EA) is a global leader in digital interactive entertainment. EA is in the business of developing and publishing sports video games, making them the perfect sponsor of our game jam event this August. 
+                Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect sponsor of our game jam event this August. 
                 <br/>
-                Read more about EA <a className="text" href="https://www.ea.com/about">here</a>.
+                Read more about Firemonkeys <a className="text" href="https://ea.com/ea-studios/firemonkeys">here</a>.
               </p>
+
+              <h3>Diamond</h3>
+              <h4>
+                <img src={msft} alt="" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={msft} alt="" height="70"/>
+              </h4>
+
+              <h3>Platinum</h3>
+              <h4>
+                <img src={janest} alt="" height="55"/>
+              </h4>
+            
+              <h3>Gold</h3>
+              <h4>
+                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>
+                <br/>
+                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>
+              </h4>
               {/* <h4>Text</h4>
             <p>
               This is <b>bold</b> and this is <strong>strong</strong>. This is{' '}
@@ -246,74 +300,41 @@ const IndexPage = () => {
                 <table>
                   <tbody>
                     <tr>
-                      <td>What is UniJam?</td>
+                      <td>How much does it cost?</td>
                       <td>
-                        UniJam is CISSA's FREE game development hackathon! That's right - it's
-                        100% free! The only thing you need to do is APPLY by
-                        filling out the relevant form at the top of this
-                        website.
+                        UniJam is a free game development hackathon! That's right - it's
+                        100% free! The only thing you need to do is sign up for the event by filling out the relevant form outlined in the <u>Sign Up</u> section of this page!
                       </td>
                     </tr>
                     <tr>
-                      <td>But... what is a hackathon?</td>
+                      <td>What is a hackathon?</td>
                       <td>
-                        A hackathon is an event in which coders and designers
-                        get together and spend many hours hacking to create a
-                        prototype that is to be presented to a panel of judges.
-                        UniJam is a weekend of coding. So essentially, a
-                        hackathon is a fun-filled weekend of coding and
-                        prototyping. A code-fest!
+                        In a hackathon, developers and designers alike spend entire days hacking to create a prototype to present and pitch to a panel of judges. UniJam is a fun-filled week of designing and coding. It’s a place to improve your skills, meet new people and develop an awesome game.
                       </td>
                     </tr>
                     <tr>
-                      <td>What are the prizes?</td>
+                      <td>What is the theme?</td>
                       <td>
-                        It wouldn't be a hackathon without prizes!
-                        <ul>
-                          <li>1st Place ($2000)</li>
-                          <li> 2nd Place ($1000) </li>
-                          <li> 3rd Place ($500)</li>
-                        </ul>
-                      {/*Extras (TBC, but potentially):
-                      <ul>
-                        <li>Go Pro</li>
-                        <li>Google Home Mini</li>
-                        <li>UE Roll</li>
-                      </ul>
-                      Raffle (YES we're having a raffle!!):
-                      <ul>
-                        <li>guess you'll have to come to find out ;)</li>
-                      </ul> */}
+                        The theme this year is '<i>connections</i>'.
                       </td>
                     </tr>
                     <tr>
-                      <td>What's the theme?</td>
+                      <td>Who can participate?</td>
                       <td>
-                        The theme this year is...
-                        {/* Empowering Education! Create
-                      solutions that empower your peers to learn! Sick of LMS?
-                      Create something better? Lecture capture's down? Think up
-                      a better solution! */}
+                        All current students at the University of Melbourne can take part, regardless of discipline or level of experience.
                       </td>
                     </tr>
                     <tr>
-                      <td>How are teams formed?</td>
+                      <td>What if I’ve never developed a game before?</td>
                       <td>
-                        <ol>
-                          <li>
-                            Teams are ideally formed before the start of the
-                            hackathon :)
-                          </li>
-                          <li>
-                            Or...just rock up and join a team if you are so
-                            inclined!
-                          </li>
-                        </ol>
+                        Don’t worry! Hackathons are a great opportunity to learn new technologies as you go, and you’ll have teammates by your side. UniJam will help you submit your game, and we can also offer guidance if you don’t know where to start.
                       </td>
                     </tr>
                     <tr>
-                      <td>How do I apply?</td>
-                      <td>Just click the button at the top of the page :)</td>
+                      <td>How do I sign up?</td>
+                      <td>
+                        Just head over to the <u>Sign Up</u> section of this page and follow the instructions :)
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -321,6 +342,40 @@ const IndexPage = () => {
             </div>
           </section>
           <section id="six">
+            <div className="container">
+              <h3>Sign up</h3>
+              <p>
+                <a className="text" href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
+              </p>
+              <p>
+                You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
+              </p>
+              <p>
+                If you are signing up as an individual, complete the form and watch this space: we will have a Unijam Discord server where you can reach out to others also looking for a team! 
+              </p>
+              <p>
+                <strong>Registration closes on the 16th of August.</strong>
+              </p>
+              <p>
+                Ready to submit your game? See the <u>Submission Instructions</u> section of this page!
+              </p>
+            </div>
+          </section>
+          <section id="seven">
+            <div className="container" >
+              <h3>How to submit your game</h3>
+              <p>
+                There are certain requirements that teams are asked to follow in the submission of their games. For this reason, we have put together a step-by-step instruction guide to demonstrate the submission process.
+              </p>
+              <p>
+                <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
+              </p>
+              <p>
+                We encourage you to read and understand the submission guidelines well before it becomes time to submit.
+              </p>
+            </div>
+          </section>
+          <section id="eight">
             <div className="container">
               <h3>Contact Us</h3>
               <p>
