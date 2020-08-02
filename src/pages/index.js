@@ -377,37 +377,9 @@ const IndexPage = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>What if I don't have teammates?</td>
+                      <td>What does submission look like?</td>
                       <td>
-                        No worries! Just head over to the UniJam Discord Server where you can reach out to others also looking for a team!
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>How do I submit my game?</td>
-                      <td>
-                        You will find a step-by-step instruction guide in the <u>Submit Your Game</u> section of the page!
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>How will the prizes be distributed?</td>
-                      <td>
-                        If you win a prize, you will be contacted via email and asked to provide a mailing address. We will then ship your prize(s) to you. How exciting!
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>Who should I ask for further information?</td>
-                      <td>
-                        Head over to the <u>Contact Us</u> section of this page :)
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>What should I bear in mind when making the game?</td>
-                      <td>
-                        <ol>
-                          <li>Include executable file</li>
-                          <li>Specify how to run it</li>
-                          <li>It is recommended to film the game play and include a link to the video in the itch.io description (5 minute time limit)</li>
-                        </ol>
+                        You will find a step-by-step instruction guide in the <a className="text" href="#seven">Submit Your Game</a> section of the page!
                       </td>
                     </tr>
                     <tr>
@@ -451,7 +423,7 @@ const IndexPage = () => {
                 <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
-                This step-by-step information guide highlights the restrictions we place on submissions and demonstrates the submission process.
+                This step-by-step information guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add video up to 5 minutes long on your itch.io submission.
               </p>
               <p>
                 We strongly encourage you to read and understand the submission guidelines well before it becomes time to submit.
