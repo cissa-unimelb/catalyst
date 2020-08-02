@@ -143,14 +143,14 @@ const IndexPage = () => {
               <p>
                 If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences of prize choice. Runner-up prizes are also available for most related to theme, most enjoyable and most creative.
               </p>
+              <p>The prizes are:</p>
               <ul>
-                <li>JB-Hi-Fi gift cards</li>
-                <li>EA video games</li>
-                <li>Crunchyroll memberships</li>
-                <li>UberEats coupons</li>
-                <li>Anime-related video games</li>
-                <li>Abode Creative Cloud memberships</li>
+                <li><b>1st place:</b> 3 games from EA and $200 worth of vouchers each.</li>
+                <li><b>2nd place:</b> 2 games from EA and $150 worth of vouchers each.</li>
+                <li><b>3rd place:</b> 1 game from EA and $100 worth of vouchers each.</li>
+                <li><b>Runner-up prizes:</b> A 3-month AnimeLab membership and an anime-related video game for PC each.</li>
               </ul>
+              <p>Vouchers include JB Hi-Fi gift cards and UberEats vouchers.</p>
             {/*<ul className="feature-icons">
               <li className="fa-code">Write all the code</li>
               <li className="fa-cubes">Stack small boxes</li>
@@ -331,9 +331,21 @@ const IndexPage = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>How do I sign up?</td>
+                      <td>What do I do if I don't have a team?</td>
                       <td>
-                        Just head over to the <u>Sign Up</u> section of this page and follow the instructions :)
+                        You can find a team on the <a classname="text" href="https://discord.gg/82B9z7A">UniJam Discord</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates where you can talk privately and discuss ideas. If you accidentally reacted to the wrong team and were added to the wrong team chat, you can simply react again to leave.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>How will the prizes be distributed?</td>
+                      <td>
+                        All of our prizes will be distributed digitally. Winning teams will be contacted via email.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>How can I get further information?</td>
+                      <td>
+                        Reach out to <a classname="text" href="https://www.facebook.com/cissa.unimelb/">CISSA on Facebook</a> if you have additional questions about the event. The email addresses and Facebook groups of all participating clubs are listed at the bottom of this page.
                       </td>
                     </tr>
                   </tbody>
@@ -351,13 +363,13 @@ const IndexPage = () => {
                 You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
               </p>
               <p>
-                If you are signing up as an individual, complete the form and watch this space: we will have a Unijam Discord server where you can reach out to others also looking for a team! 
+                If you don’t have a team, join the <a href="https://discord.gg/82B9z7A">UniJam Discord server</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates.
+              </p>
+              <p>
+                Feel free to <a href="https://www.facebook.com/cissa.unimelb">reach out to us</a> if you are having any problems finding or registering a team.
               </p>
               <p>
                 <strong>Registration closes on the 16th of August.</strong>
-              </p>
-              <p>
-                Ready to submit your game? See the <u>Submission Instructions</u> section of this page!
               </p>
             </div>
           </section>
