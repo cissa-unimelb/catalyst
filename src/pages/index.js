@@ -14,6 +14,18 @@ import Sidebar from '../components/Sidebar';
 import banner from '../assets/images/unijam_banner_final.png';
 import fm from '../assets/img/firemonkeys_logo.png';
 import msft from '../assets/img/sponsors/microsoft.png';
+import anz from '../assets/img/sponsors/anz.png';
+import rome2rio from '../assets/img/sponsors/rome2rio.png';
+import imc from '../assets/img/sponsors/imc.png';
+import telstra from '../assets/img/sponsors/telstra_new.png';
+import atlassian from '../assets/img/sponsors/atlassian.png';
+import akuna from '../assets/img/sponsors/akuna.png';
+import deloitte from '../assets/img/sponsors/deloitte.png';
+import mcgrath from '../assets/img/sponsors/mcgrathnicol.png';
+import woodside from '../assets/img/sponsors/woodside.png';
+import facebook from '../assets/img/sponsors/facebook.png';
+import ey from '../assets/img/sponsors/ey.png';
+import commbank from '../assets/img/sponsors/commbank.png';
 import janest from '../assets/img/sponsors/jane street.png';
 import canva from '../assets/img/sponsors/canva-ar21.svg';
 import optiver from '../assets/img/sponsors/optiver.png';
@@ -26,7 +38,8 @@ const sections = [
   { id: 'four', name: 'Sponsors' },
   { id: 'five', name: 'FAQs' },
   { id: 'six', name: 'Sign Up' },
-  { id: 'seven', name: 'Submission Instructions' }
+  { id: 'seven', name: 'Submit Your Game' },
+  { id: 'eight', name: 'Contact Us' }
 ];
 
 const IndexPage = () => {
@@ -141,7 +154,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Prizes</h3>
               <p>
-                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences of prize choice. Runner-up prizes are also available for most related to theme, most enjoyable and most creative.
+                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences from a prize pool that includes:
               </p>
               <p>The prizes are:</p>
               <ul>
@@ -168,52 +181,47 @@ const IndexPage = () => {
               <VerticalTimeline>
                 <VerticalTimelineElement
                   className=""
-                  date="&nbsp;&nbsp;&nbsp;&nbsp;3 August - 16 August"
                   iconStyle={{
-                    background: '#ff8c14',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Monday, Week 1 - Sunday, Week 2</h3>
+                  <h3 className="vertical-timeline-element-title">3rd August - 16th August</h3>
                   <h4 className="vertical-timeline-element-subtitle">Registration and Team Formation Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="17 August - 23 August&nbsp;&nbsp;&nbsp;&nbsp;"
                   iconStyle={{
-                    background: '#218c14',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Monday, Week 3 - Sunday, Week 3</h3>
+                  <h3 className="vertical-timeline-element-title">17th August - 23rd August</h3>
                   <h4 className="vertical-timeline-element-subtitle">Development Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="&nbsp;&nbsp;&nbsp;&nbsp;24 August - 27 August"
                   iconStyle={{
-                    background: '#14218c',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Monday, Week 4 - Thursday, Week 4</h3>
+                  <h3 className="vertical-timeline-element-title">24th August - 27th August</h3>
                   <h4 className="vertical-timeline-element-subtitle">Committee Shortlisting</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="28 August - 4 September&nbsp;&nbsp;&nbsp;&nbsp;"
                   iconStyle={{
-                    background: '#8c1421',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Friday, Week 4 - Friday, Week 5</h3>
+                  <h3 className="vertical-timeline-element-title">28th August - 4th September</h3>
                   <h4 className="vertical-timeline-element-subtitle">Final 5 Teams Announced and Public Voting Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="&nbsp;&nbsp;&nbsp;&nbsp;9 September"
                   iconStyle={{
-                    background: '#7f148c',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Wednesday, Week 6</h3>
+                  <h3 className="vertical-timeline-element-title">9th September</h3>
                   <h4 className="vertical-timeline-element-subtitle">Winner Is Announced</h4>
                 </VerticalTimelineElement>
                 {/* <VerticalTimelineElement
@@ -246,29 +254,50 @@ const IndexPage = () => {
           </section>
           <section id="four">
             <div className="container">
-              <h3>Headline Partner</h3>
+              <h3>Prizes By</h3>
               <h4><img src={fm} alt="" width="100"/></h4>
               <p>
-                Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect sponsor of our game jam event this August. 
+                Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect headline partner of our game jam event. 
                 <br/>
-                Read more about Firemonkeys <a className="text" href="https://ea.com/ea-studios/firemonkeys">here</a>.
+                Read more about Firemonkeys <a className="text" href="https://ea.com/ea-studios/firemonkeys" target="_onblank">here</a>.
               </p>
 
-              <h3>Diamond</h3>
+              <h3>Sponsors</h3>
+              <h4>Diamond</h4>
               <h4>
-                <img src={msft} alt="" height="70"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={msft} alt="" height="70"/>
+                <img src={msft} alt="" height="60"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={anz} alt="" height="40" style={{transform:'translateY(-15px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
-
-              <h3>Platinum</h3>
+              <hr/>
+              <h4>Platinum</h4>
               <h4>
-                <img src={janest} alt="" height="55"/>
+                <img src={janest} alt="" height="40"/>
               </h4>
-            
-              <h3>Gold</h3>
+              <hr/>
+              <h4>Gold</h4>
               <h4>
-                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>
+                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={optiver} alt="" width="100" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={rome2rio} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={imc} alt="" width="100" style={{transform:'translateY(-10px'}}/>
                 <br/>
-                <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={optiver} alt="" width="100"/>
+                <img src={telstra} alt="" width="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={atlassian} alt="" width="100" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={akuna} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={deloitte} alt="" width="100"/>
+              </h4>
+              <hr/>
+              <h4>Silver</h4>
+              <h4>
+                <img src={mcgrath} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={woodside} alt="" width="120" style={{transform:'translateY(-15px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={facebook} alt="" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={ey} alt="" width="50" style={{transform:'translateY(-15px'}}/>
+              </h4>
+              <hr/>
+              <h4>Bronze</h4>
+              <h4>
+                <img src={commbank} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
               {/* <h4>Text</h4>
             <p>
@@ -302,8 +331,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
-                        UniJam is a free game development hackathon! That's right - it's
-                        100% free! The only thing you need to do is sign up for the event by filling out the relevant form outlined in the <u>Sign Up</u> section of this page!
+                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <u>Sign Up</u> section of this page!
                       </td>
                     </tr>
                     <tr>
@@ -348,6 +376,46 @@ const IndexPage = () => {
                         Reach out to <a classname="text" href="https://www.facebook.com/cissa.unimelb/">CISSA on Facebook</a> if you have additional questions about the event. The email addresses and Facebook groups of all participating clubs are listed at the bottom of this page.
                       </td>
                     </tr>
+                    <tr>
+                      <td>What if I don't have teammates?</td>
+                      <td>
+                        No worries! Just head over to the UniJam Discord Server where you can reach out to others also looking for a team!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>How do I submit my game?</td>
+                      <td>
+                        You will find a step-by-step instruction guide in the <u>Submit Your Game</u> section of the page!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>How will the prizes be distributed?</td>
+                      <td>
+                        If you win a prize, you will be contacted via email and asked to provide a mailing address. We will then ship your prize(s) to you. How exciting!
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Who should I ask for further information?</td>
+                      <td>
+                        Head over to the <u>Contact Us</u> section of this page :)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>What should I bear in mind when making the game?</td>
+                      <td>
+                        <ol>
+                          <li>Include executable file</li>
+                          <li>Specify how to run it</li>
+                          <li>It is recommended to film the game play and include a link to the video in the itch.io description (5 minute time limit)</li>
+                        </ol>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>What can't I include in the game?</td>
+                      <td>
+                        Nothing you would be ashamed to show your grandma :)
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -355,7 +423,7 @@ const IndexPage = () => {
           </section>
           <section id="six">
             <div className="container">
-              <h3>Sign up</h3>
+              <h3>Sign Up</h3>
               <p>
                 <a className="text" href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
               </p>
@@ -375,15 +443,18 @@ const IndexPage = () => {
           </section>
           <section id="seven">
             <div className="container" >
-              <h3>How to submit your game</h3>
+              <h3>Submit Your Game</h3>
               <p>
-                There are certain requirements that teams are asked to follow in the submission of their games. For this reason, we have put together a step-by-step instruction guide to demonstrate the submission process.
+                Teams are expected to follow the below how-to guide to submit their game. 
               </p>
               <p>
                 <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
-                We encourage you to read and understand the submission guidelines well before it becomes time to submit.
+                This step-by-step information guide highlights the restrictions we place on submissions and demonstrates the submission process.
+              </p>
+              <p>
+                We strongly encourage you to read and understand the submission guidelines well before it becomes time to submit.
               </p>
             </div>
           </section>
@@ -391,9 +462,21 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-                Feel free to reach out to us via email!
+                Got a question that has not been covered by the <u>FAQ</u> section of this page?
+              </p>
+              <p>Feel free to reach out to us via any of our Facebook pages!
               </p>
               <p>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://facebook.com/cissa.unimelb/" target="_onblank">CISSA</a> <br/> <br/>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://facebook.com/codec.unimelb/" target="_onblank">CODEC</a> <br/> <br/>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://www.facebook.com/UoMAMC/" target="_onblank">AMC</a> <br/> <br/>
+                <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
+                <a className="text" href="https://facebook.com/groups/seegamers/" target="_onblank">SEE</a> <br/> <br/>
+              </p>
+              {/* <p>
                 <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:events@cissa.org.au">events@cissa.org.au</a> <br/> <br/>
                 <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
@@ -402,7 +485,7 @@ const IndexPage = () => {
                 <a className="text" href="mailto:enquiries@amc.moe">enquiries@amc.moe</a> <br/> <br/>
                 <i className="fa fa-envelope-o" aria-hidden="true" style={{fontSize:"28px"}}>&nbsp;</i>
                 <a className="text" href="mailto:codec.unimelb@gmail.com">codec.unimelb@gmail.com</a>
-              </p>
+              </p> */}
             </div>
           </section>
         </div>
