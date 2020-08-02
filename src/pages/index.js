@@ -186,52 +186,47 @@ const IndexPage = () => {
               <VerticalTimeline>
                 <VerticalTimelineElement
                   className=""
-                  date="&nbsp;&nbsp;&nbsp;&nbsp;3 August - 16 August"
                   iconStyle={{
-                    background: '#ff8c14',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Monday, Week 1 - Sunday, Week 2</h3>
+                  <h3 className="vertical-timeline-element-title">3rd August - 16th August</h3>
                   <h4 className="vertical-timeline-element-subtitle">Registration and Team Formation Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="17 August - 23 August&nbsp;&nbsp;&nbsp;&nbsp;"
                   iconStyle={{
-                    background: '#218c14',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Monday, Week 3 - Sunday, Week 3</h3>
+                  <h3 className="vertical-timeline-element-title">17th August - 23rd August</h3>
                   <h4 className="vertical-timeline-element-subtitle">Development Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="&nbsp;&nbsp;&nbsp;&nbsp;24 August - 27 August"
                   iconStyle={{
-                    background: '#14218c',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Monday, Week 4 - Thursday, Week 4</h3>
+                  <h3 className="vertical-timeline-element-title">24th August - 27th August</h3>
                   <h4 className="vertical-timeline-element-subtitle">Committee Shortlisting</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="28 August - 4 September&nbsp;&nbsp;&nbsp;&nbsp;"
                   iconStyle={{
-                    background: '#8c1421',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Friday, Week 4 - Friday, Week 5</h3>
+                  <h3 className="vertical-timeline-element-title">28th August - 4th September</h3>
                   <h4 className="vertical-timeline-element-subtitle">Final 5 Teams Announced and Public Voting Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
-                  date="&nbsp;&nbsp;&nbsp;&nbsp;9 September"
                   iconStyle={{
-                    background: '#7f148c',
+                    background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">Wednesday, Week 6</h3>
+                  <h3 className="vertical-timeline-element-title">9th September</h3>
                   <h4 className="vertical-timeline-element-subtitle">Winner Is Announced</h4>
                 </VerticalTimelineElement>
                 {/* <VerticalTimelineElement
@@ -276,7 +271,7 @@ const IndexPage = () => {
               <h4>Diamond</h4>
               <h4>
                 <img src={msft} alt="" height="60"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={anz} alt="" height="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={anz} alt="" height="40" style={{transform:'translateY(-15px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
               <hr/>
               <h4>Platinum</h4>
@@ -287,12 +282,12 @@ const IndexPage = () => {
               <h4>Gold</h4>
               <h4>
                 <img src={canva} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={optiver} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={optiver} alt="" width="100" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={rome2rio} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={imc} alt="" width="100"/>
+                <img src={imc} alt="" width="100" style={{transform:'translateY(-10px'}}/>
                 <br/>
                 <img src={telstra} alt="" width="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={atlassian} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={atlassian} alt="" width="100" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={akuna} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={deloitte} alt="" width="100"/>
               </h4>
@@ -300,9 +295,9 @@ const IndexPage = () => {
               <h4>Silver</h4>
               <h4>
                 <img src={mcgrath} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={woodside} alt="" width="120"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={woodside} alt="" width="120" style={{transform:'translateY(-15px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={facebook} alt="" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={ey} alt="" width="50"/>
+                <img src={ey} alt="" width="50" style={{transform:'translateY(-15px'}}/>
               </h4>
               <hr/>
               <h4>Bronze</h4>
