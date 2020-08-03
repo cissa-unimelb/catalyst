@@ -11,6 +11,7 @@ import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import Sidebar from '../components/Sidebar';
 
+
 import banner from '../assets/images/unijam_banner_final.png';
 import fm from '../assets/img/firemonkeys_logo.png';
 import msft from '../assets/img/sponsors/microsoft.png';
@@ -157,6 +158,7 @@ const IndexPage = () => {
                 If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. There are prizes for the top 3 teams, as well as three runner-up prizes for most enjoyable, most creative and most related to theme. 
               </p>
               <p>The prizes are:</p>
+  
               <ul>
                 <li><b>1st place:</b> 3 games from EA and $200 worth of vouchers each.</li>
                 <li><b>2nd place:</b> 2 games from EA and $150 worth of vouchers each.</li>
