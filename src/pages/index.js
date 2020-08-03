@@ -444,7 +444,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-                Got a question that has not been covered by the <u>FAQ</u> section of this page?
+                Got a question that hasn't been covered by the <u>FAQ</u> section of this page?
               </p>
               <p>Feel free to reach out to us via any of our Facebook pages!
               </p>
