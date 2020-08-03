@@ -154,7 +154,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Prizes</h3>
               <p>
-                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. First, second and third places have first preferences from a prize pool that includes:
+                If you’re feeling competitive, multiple prizes are up for grabs for the most impressive games of the event. There are prizes for the top 3 teams, as well as three runner-up prizes for most enjoyable, most creative and most related to theme. 
               </p>
               <p>The prizes are:</p>
               <ul>
@@ -195,7 +195,7 @@ const IndexPage = () => {
                   }}
                 >
                   <h3 className="vertical-timeline-element-title">17th August - 23rd August</h3>
-                  <h4 className="vertical-timeline-element-subtitle">Development Period</h4>
+                  <h4 className="vertical-timeline-element-subtitle">Development and Submission Period</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
@@ -213,7 +213,7 @@ const IndexPage = () => {
                   }}
                 >
                   <h3 className="vertical-timeline-element-title">28th August - 4th September</h3>
-                  <h4 className="vertical-timeline-element-subtitle">Final 5 Teams Announced and Public Voting Period</h4>
+                  <h4 className="vertical-timeline-element-subtitle">Top 5 Teams Announced</h4>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                   className=""
@@ -255,7 +255,7 @@ const IndexPage = () => {
           <section id="four">
             <div className="container">
               <h3>Prizes By</h3>
-              <h4><img src={fm} alt="" width="100"/></h4>
+              {/* <h4><img src={fm} alt="" width="100"/></h4> */}
               <p>
                 Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect headline partner of our game jam event. 
                 <br/>
@@ -362,6 +362,14 @@ const IndexPage = () => {
                       <td>What do I do if I don't have a team?</td>
                       <td>
                         You can find a team on the <a classname="text" href="https://discord.gg/82B9z7A">UniJam Discord</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates where you can talk privately and discuss ideas. If you accidentally reacted to the wrong team and were added to the wrong team chat, you can simply react again to leave.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        How many people can be in a team?
+                      </td>
+                      <td>
+                        Teams can have 2 to 4 members.
                       </td>
                     </tr>
                     <tr>
