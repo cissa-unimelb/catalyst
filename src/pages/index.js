@@ -13,7 +13,7 @@ import Sidebar from '../components/Sidebar';
 
 
 import banner from '../assets/images/unijam_banner_final.png';
-import fm from '../assets/img/firemonkeys_logo.png';
+import fm from '../assets/img/firemonkeys_logo_updated.png';
 import msft from '../assets/img/sponsors/microsoft.png';
 import anz from '../assets/img/sponsors/anz.png';
 import rome2rio from '../assets/img/sponsors/rome2rio.png';
@@ -115,7 +115,7 @@ const IndexPage = () => {
                 UniJam is an online computer game development hackathon for students at the University of Melbourne. The event is organised in collaboration with the Computing and Information Systems Students Association (<a className="text" href="https://cissa.org.au" target="_onblank">CISSA</a>), Society for Electronic Entertainment (<a className="text" href="https://facebook.com/groups/seegamers/" target="_onblank">SEE</a>), Anime and Manga Club (<a className="text" href="https://amc.moe" target="_onblank">AMC</a>), and Community for Digital Entertainment Creation (<a className="text" href="https://facebook.com/codec.unimelb/" target="_onblank">CODEC</a>). 
               </p>
               <p>
-                For the hackathon, teams of up to four students develop and bring their own computer game to life. Afterwards, each creation will be submitted online, judged by participating clubs and made available to download.
+                For the hackathon, teams of up to four students develop and bring their own computer game to life. Afterwards, each creation will be submitted online, judged by participating clubs and sponsors, and made available to download.
               </p>
               <p>
                 Students are given creative freedom around this year's theme, '<i>connections</i>', and are encouraged to get inspired creating art assets, music, and unique game features. Submissions will be judged on a variety of factors, including:
@@ -160,9 +160,9 @@ const IndexPage = () => {
               <p>The prizes are:</p>
   
               <ul>
-                <li><b>1st place:</b> 3 games from EA and $200 worth of vouchers each.</li>
-                <li><b>2nd place:</b> 2 games from EA and $150 worth of vouchers each.</li>
-                <li><b>3rd place:</b> 1 game from EA and $100 worth of vouchers each.</li>
+                <li><b>1st place:</b> A game from EA and $200 worth of vouchers each.</li>
+                <li><b>2nd place:</b> $150 worth of vouchers each.</li>
+                <li><b>3rd place:</b> $100 worth of vouchers each.</li>
                 <li><b>Runner-up prizes:</b> A 3-month AnimeLab membership and an anime-related video game for PC each.</li>
               </ul>
               <p>Vouchers include JB Hi-Fi gift cards and UberEats vouchers.</p>
@@ -257,7 +257,7 @@ const IndexPage = () => {
           <section id="four">
             <div className="container">
               <h3>Prizes By</h3>
-              {/* <h4><img src={fm} alt="" width="100"/></h4> */}
+              <h4><img src={fm} alt="" width="100"/></h4>
               <p>
                 Based in Melbourne, Australia, Firemonkeys Studios is an EA Studio focused on the development and delivery of video games, making them the perfect headline partner of our game jam event. 
                 <br/>
@@ -333,7 +333,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
-                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <u>Sign Up</u> section of this page!
+                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <a href="#seven">Sign Up</a> section of this page!
                       </td>
                     </tr>
                     <tr>
@@ -351,7 +351,7 @@ const IndexPage = () => {
                     <tr>
                       <td>Who can participate?</td>
                       <td>
-                        All current students at the University of Melbourne can take part, regardless of discipline or level of experience.
+                        All current students at the University of Melbourne can take part, regardless of discipline or level of experience. If you are not sure if your team is eligible, please contact us.
                       </td>
                     </tr>
                     <tr>
@@ -396,6 +396,12 @@ const IndexPage = () => {
                       <td>What can't I include in the game?</td>
                       <td>
                         Nothing you would be ashamed to show your grandma :)
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>What are the rules in regards to copyright?</td>
+                      <td>
+                        You are free to use any public resource you want, but we will take it into consideration for the originality criteria when we judge the game.
                       </td>
                     </tr>
                   </tbody>
