@@ -333,7 +333,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
-                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <a href="#seven">Sign Up</a> section of this page!
+                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <a href="#six">Sign Up</a> section of this page!
                       </td>
                     </tr>
                     <tr>
@@ -413,7 +413,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Sign Up</h3>
               <p>
-                <a className="text" href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
+                <a href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
               </p>
               <p>
                 You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
@@ -436,7 +436,7 @@ const IndexPage = () => {
                 Teams are expected to follow the below how-to guide to submit their game. 
               </p>
               <p>
-                <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
+                <a href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
                 This step-by-step information guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add video up to 5 minutes long on your itch.io submission.
@@ -450,7 +450,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-                Got a question that hasn't been covered by the <u>FAQ</u> section of this page?
+                Got a question that hasn't been covered by the FAQ section of this page?
               </p>
               <p>Feel free to reach out to us via any of our Facebook pages!
               </p>
