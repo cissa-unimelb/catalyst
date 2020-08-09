@@ -1,7 +1,7 @@
 {
-  "name": "catalyst",
+  "name": "Unijam",
   "version": "0.0.1",
-  "description": "Catalyst landing page",
+  "description": "Unijam 2020",
   "author": {
     "name": "Daryl Wong",
     "email": "daryl.jl.wong@gmail.com"
@@ -54,5 +54,5 @@
     "gatsby-starter-readonly"
   ],
   "license": "MIT",
-  "homepage": "https://catalyst.cissa.org.au/"
+  "homepage": "https://unijam.org.au/"
 }

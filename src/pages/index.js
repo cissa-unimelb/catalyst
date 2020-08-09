@@ -10,8 +10,7 @@ import '../assets/sass/timeline.css';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import Sidebar from '../components/Sidebar';
-
-
+import umsu from '../assets/img/umsu.png';
 import banner from '../assets/images/unijam_banner_final.png';
 import fm from '../assets/img/firemonkeys_logo_updated.png';
 import msft from '../assets/img/sponsors/microsoft.png';
@@ -284,9 +283,9 @@ const IndexPage = () => {
                 <img src={imc} alt="" width="100" style={{transform:'translateY(-10px'}}/>
                 <br/>
                 <img src={telstra} alt="" width="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={atlassian} alt="" width="100" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={akuna} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={deloitte} alt="" width="100"/>
+                <img src={atlassian} alt="" width="125" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={akuna} alt="" width="125"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={deloitte} alt="" width="100" style={{transform:'translateY(-10px'}}/>
               </h4>
               <hr/>
               <h4>Silver</h4>
@@ -300,6 +299,13 @@ const IndexPage = () => {
               <h4>Bronze</h4>
               <h4>
                 <img src={commbank} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </h4>
+              <hr/>
+
+              <h3>Affiliations</h3>
+              <br/>
+              <h4>
+                <img src={umsu} alt="" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
               {/* <h4>Text</h4>
             <p>
