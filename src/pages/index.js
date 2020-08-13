@@ -383,7 +383,7 @@ const IndexPage = () => {
                     <tr>
                       <td>What are the rules in regards to copyright?</td>
                       <td>
-                        You are free to use any public resource either of your own work or under a open license. However, the judging panel will take originality into account whilst judging your game.
+                        You are free to use any public resource either of your own work or under an open license. However, the judging panel will take originality into account whilst judging your game.
                       </td>
                     </tr>
                   </tbody>
