@@ -365,7 +365,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How will the prizes be announced and distributed?</td>
                       <td>
-                        All of our prizes will be distributed digitally. Winning teams will be announced on the <a className="text" href="https://www.facebook.com/events/311994066613856/">UniJam Facebook page</a> and winning teams contacted individually.
+                        All of our prizes will be distributed digitally. Winning teams will be announced on the <a className="text" href="https://www.facebook.com/events/311994066613856/">UniJam Facebook page</a> and contacted individually.
                       </td>
                     </tr>
                     <tr>
@@ -421,7 +421,7 @@ const IndexPage = () => {
                 <a href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
-                The guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add a video up to 5 minutes long on your itch.io submission.
+                This guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add a video up to 5 minutes long to your itch.io submission.
               </p>
               <p>
                 We encourage teams to read and understand the submission guidelines well before it becomes time to submit.
