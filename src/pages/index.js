@@ -339,7 +339,7 @@ const IndexPage = () => {
                     <tr>
                       <td>Who can participate?</td>
                       <td>
-                        All current students at the University of Melbourne can take part, regardless of discipline or level of experience. At least one member of each team must be a current student at The University of Melbourne. Prizes will only be distributed to University of Melbourne students. If you are not sure if your team is eligible, please <a className="text" href="#eight">contact us</a>.
+                        All students can take part, regardless of discipline or level of experience. At least one member of each team must be a current student at the University of Melbourne. Prizes will only be distributed to University of Melbourne students. If you are not sure if your team is eligible, please <a className="text" href="#eight">contact us</a>.
                       </td>
                     </tr>
                     <tr>
