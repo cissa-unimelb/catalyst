@@ -204,7 +204,7 @@ const IndexPage = () => {
                     background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">4th August</h3>
+                  <h3 className="vertical-timeline-element-title">4th September</h3>
                   <h4 className="vertical-timeline-element-subtitle">Winners Announced</h4>
                 </VerticalTimelineElement>
                 {/* <VerticalTimelineElement
