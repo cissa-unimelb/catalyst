@@ -321,11 +321,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
-<<<<<<< HEAD
                         UniJam is a free game development hackathon! The only thing you need to do is <a className="text" href="#seven">Sign Up</a>.
-=======
-                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <a href="#six">Sign Up</a> section of this page!
->>>>>>> 2c9b5d5baa714850927becde46cb6b94c89ddb8d
                       </td>
                     </tr>
                     <tr>
@@ -436,11 +432,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-<<<<<<< HEAD
                 Any further questions? Reach out to us at <a href="mailto:unijam@unijam.org.au">unijam@unijam.org.au</a>.
-=======
-                Got a question that hasn't been covered by the FAQ section of this page?
->>>>>>> 2c9b5d5baa714850927becde46cb6b94c89ddb8d
               </p>
               <p>You can connect with individual clubs through our Facebook pages.
               </p>
