@@ -383,7 +383,7 @@ const IndexPage = () => {
                     <tr>
                       <td>What are the rules in regards to copyright?</td>
                       <td>
-                        You are free to use any public resource either of your own work or under a public license. However, the judging panel will take originality into account whilst judging your game.
+                        You are free to use any public resource either of your own work or under a open license. However, the judging panel will take originality into account whilst judging your game.
                       </td>
                     </tr>
                   </tbody>
@@ -398,7 +398,7 @@ const IndexPage = () => {
                 <a href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
               </p>
               <p>
-                You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
+                You are welcome to organise a team of up to four before the event. Only one member of your team should complete the above form.
               </p>
               <p>
                 If you don’t have a team, join the <a className="text" href="https://discord.gg/82B9z7A">UniJam Discord server</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates.
