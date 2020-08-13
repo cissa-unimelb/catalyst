@@ -1,4 +1,4 @@
-# Catalyst Landing Page
+# UniJam Landing Page
 
 Gatsby.js V2 PWA built with (p)react
 
