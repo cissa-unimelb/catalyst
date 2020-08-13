@@ -205,26 +205,8 @@ const IndexPage = () => {
                     background: '#0d98ba',
                   }}
                 >
-                  <h3 className="vertical-timeline-element-title">24th August - 27th August</h3>
-                  <h4 className="vertical-timeline-element-subtitle">Committee Shortlisting</h4>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                  className=""
-                  iconStyle={{
-                    background: '#0d98ba',
-                  }}
-                >
-                  <h3 className="vertical-timeline-element-title">28th August - 4th September</h3>
-                  <h4 className="vertical-timeline-element-subtitle">Top 5 Teams Announced</h4>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                  className=""
-                  iconStyle={{
-                    background: '#0d98ba',
-                  }}
-                >
-                  <h3 className="vertical-timeline-element-title">9th September</h3>
-                  <h4 className="vertical-timeline-element-subtitle">Winner Is Announced</h4>
+                  <h3 className="vertical-timeline-element-title">4th August</h3>
+                  <h4 className="vertical-timeline-element-subtitle">Winners Announced</h4>
                 </VerticalTimelineElement>
                 {/* <VerticalTimelineElement
                   className=""
@@ -333,7 +315,7 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
-                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <a href="#seven">Sign Up</a> section of this page!
+                        UniJam is a free game development hackathon! The only thing you need to do is <a className="text" href="#seven">Sign Up</a>.
                       </td>
                     </tr>
                     <tr>
@@ -351,7 +333,7 @@ const IndexPage = () => {
                     <tr>
                       <td>Who can participate?</td>
                       <td>
-                        All current students at the University of Melbourne can take part, regardless of discipline or level of experience. If you are not sure if your team is eligible, please contact us.
+                        All current students at the University of Melbourne can take part, regardless of discipline or level of experience. At least one member of each team must be a current student at The University of Melbourne. Prizes will only be distributed to University of Melbourne students. If you are not sure if your team is eligible, please <a className="text" href="#eight">contact us</a>.
                       </td>
                     </tr>
                     <tr>
@@ -363,7 +345,7 @@ const IndexPage = () => {
                     <tr>
                       <td>What do I do if I don't have a team?</td>
                       <td>
-                        You can find a team on the <a classname="text" href="https://discord.gg/82B9z7A">UniJam Discord</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates where you can talk privately and discuss ideas. If you accidentally reacted to the wrong team and were added to the wrong team chat, you can simply react again to leave.
+                        You can find a team on the <a className="text" href="https://discord.gg/82B9z7A">UniJam Discord</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates where you can talk privately and discuss ideas. If you accidentally reacted to the wrong team and were added to the wrong team chat, you can simply react again to leave.
                       </td>
                     </tr>
                     <tr>
@@ -375,15 +357,9 @@ const IndexPage = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td>How will the prizes be distributed?</td>
+                      <td>How will the prizes be announced and distributed?</td>
                       <td>
-                        All of our prizes will be distributed digitally. Winning teams will be contacted via email.
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>How can I get further information?</td>
-                      <td>
-                        Reach out to <a classname="text" href="https://www.facebook.com/cissa.unimelb/">CISSA on Facebook</a> if you have additional questions about the event. The email addresses and Facebook groups of all participating clubs are listed at the bottom of this page.
+                        All of our prizes will be distributed digitally. Winning teams will be announced on the <a className="text" href="https://www.facebook.com/events/311994066613856/">UniJam Facebook page</a> and winning teams contacted individually.
                       </td>
                     </tr>
                     <tr>
@@ -401,7 +377,7 @@ const IndexPage = () => {
                     <tr>
                       <td>What are the rules in regards to copyright?</td>
                       <td>
-                        You are free to use any public resource you want, but we will take it into consideration for the originality criteria when we judge the game.
+                        You are free to use any public resource either of your own work or under a public license. However, the judging panel will take originality into account whilst judging your game.
                       </td>
                     </tr>
                   </tbody>
@@ -419,10 +395,10 @@ const IndexPage = () => {
                 You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
               </p>
               <p>
-                If you don’t have a team, join the <a href="https://discord.gg/82B9z7A">UniJam Discord server</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates.
+                If you don’t have a team, join the <a className="text" href="https://discord.gg/82B9z7A">UniJam Discord server</a>. In the "general channel", you can find others who are also looking for a team. Once you have found your teammates, you can add a reaction in the "team-allocation channel" to be placed into a private team chat with your teammates.
               </p>
               <p>
-                Feel free to <a href="https://www.facebook.com/cissa.unimelb">reach out to us</a> if you are having any problems finding or registering a team.
+                Feel free to <a className="text" href="#eight">reach out to us</a> if you are having any problems finding or registering a team.
               </p>
               <p>
                 <strong>Registration closes on the 16th of August.</strong>
@@ -433,16 +409,16 @@ const IndexPage = () => {
             <div className="container" >
               <h3>Submit Your Game</h3>
               <p>
-                Teams are expected to follow the below how-to guide to submit their game. 
+                The below how-to guide describes the steps for game submission.
               </p>
               <p>
                 <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
-                This step-by-step information guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add video up to 5 minutes long on your itch.io submission.
+                The guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add a video up to 5 minutes long on your itch.io submission.
               </p>
               <p>
-                We strongly encourage you to read and understand the submission guidelines well before it becomes time to submit.
+                We encourage teams to read and understand the submission guidelines well before it becomes time to submit.
               </p>
             </div>
           </section>
@@ -450,9 +426,9 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
-                Got a question that hasn't been covered by the <u>FAQ</u> section of this page?
+                Any further questions? Reach out to us at <a href="mailto:unijam@unijam.org.au">unijam@unijam.org.au</a>.
               </p>
-              <p>Feel free to reach out to us via any of our Facebook pages!
+              <p>You can connect with individual clubs through our Facebook pages.
               </p>
               <p>
                 <i className="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "28px"}}>&nbsp;</i>
