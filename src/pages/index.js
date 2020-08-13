@@ -10,8 +10,7 @@ import '../assets/sass/timeline.css';
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
 import Sidebar from '../components/Sidebar';
-
-
+import umsu from '../assets/img/umsu.png';
 import banner from '../assets/images/unijam_banner_final.png';
 import fm from '../assets/img/firemonkeys_logo_updated.png';
 import msft from '../assets/img/sponsors/microsoft.png';
@@ -266,9 +265,9 @@ const IndexPage = () => {
                 <img src={imc} alt="" width="100" style={{transform:'translateY(-10px'}}/>
                 <br/>
                 <img src={telstra} alt="" width="40"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={atlassian} alt="" width="100" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={akuna} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={deloitte} alt="" width="100"/>
+                <img src={atlassian} alt="" width="125" style={{transform:'translateY(-10px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={akuna} alt="" width="125"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src={deloitte} alt="" width="100" style={{transform:'translateY(-10px'}}/>
               </h4>
               <hr/>
               <h4>Silver</h4>
@@ -282,6 +281,13 @@ const IndexPage = () => {
               <h4>Bronze</h4>
               <h4>
                 <img src={commbank} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </h4>
+              <hr/>
+
+              <h3>Affiliations</h3>
+              <br/>
+              <h4>
+                <img src={umsu} alt="" width="200"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               </h4>
               {/* <h4>Text</h4>
             <p>
@@ -315,7 +321,11 @@ const IndexPage = () => {
                     <tr>
                       <td>How much does it cost?</td>
                       <td>
+<<<<<<< HEAD
                         UniJam is a free game development hackathon! The only thing you need to do is <a className="text" href="#seven">Sign Up</a>.
+=======
+                        UniJam is a free game development hackathon! That's right - it's 100% free! The only thing you need to do is sign up for the event by filling out the relevant form linked in the <a href="#six">Sign Up</a> section of this page!
+>>>>>>> 2c9b5d5baa714850927becde46cb6b94c89ddb8d
                       </td>
                     </tr>
                     <tr>
@@ -389,7 +399,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Sign Up</h3>
               <p>
-                <a className="text" href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
+                <a href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
               </p>
               <p>
                 You are welcome to organise a team of up to four before the event. Only one member from your team should complete the above form.
@@ -412,7 +422,7 @@ const IndexPage = () => {
                 The below how-to guide describes the steps for game submission.
               </p>
               <p>
-                <a className="text" href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
+                <a href={submission_guide} target="_onblank">Click here to view the Submission Guidelines.</a>
               </p>
               <p>
                 The guide highlights the restrictions we place on submissions and demonstrates the submission process. Submissions should include an executable file and set-up instructions. To demonstrate key features, you can also choose to add a video up to 5 minutes long on your itch.io submission.
@@ -426,7 +436,11 @@ const IndexPage = () => {
             <div className="container">
               <h3>Contact Us</h3>
               <p>
+<<<<<<< HEAD
                 Any further questions? Reach out to us at <a href="mailto:unijam@unijam.org.au">unijam@unijam.org.au</a>.
+=======
+                Got a question that hasn't been covered by the FAQ section of this page?
+>>>>>>> 2c9b5d5baa714850927becde46cb6b94c89ddb8d
               </p>
               <p>You can connect with individual clubs through our Facebook pages.
               </p>
