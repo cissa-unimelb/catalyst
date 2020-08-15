@@ -22,7 +22,6 @@ import atlassian from '../assets/img/sponsors/atlassian.png';
 import akuna from '../assets/img/sponsors/akuna.png';
 import deloitte from '../assets/img/sponsors/deloitte.png';
 import mcgrath from '../assets/img/sponsors/mcgrathnicol.png';
-import woodside from '../assets/img/sponsors/woodside.png';
 import facebook from '../assets/img/sponsors/facebook.png';
 import ey from '../assets/img/sponsors/ey.png';
 import commbank from '../assets/img/sponsors/commbank.png';
@@ -273,7 +272,6 @@ const IndexPage = () => {
               <h4>Silver</h4>
               <h4>
                 <img src={mcgrath} alt="" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img src={woodside} alt="" width="120" style={{transform:'translateY(-15px'}}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={facebook} alt="" width="150"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <img src={ey} alt="" width="50" style={{transform:'translateY(-15px'}}/>
               </h4>
