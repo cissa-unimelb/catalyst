@@ -333,7 +333,7 @@ const IndexPage = () => {
                     <tr>
                       <td>What is the theme?</td>
                       <td>
-                        The theme this year is '<i>connections</i>'.
+                        The theme this year is '<i>connections</i>'. Bonus marks are available for including the suprise twist elements of teddy bears, masks and pancakes.
                       </td>
                     </tr>
                     <tr>
