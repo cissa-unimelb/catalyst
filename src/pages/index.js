@@ -128,6 +128,7 @@ const IndexPage = () => {
                     Relatedness to theme
                   </li>
                 </ul>
+                Bonus points are awarded for including the suprise twist elements of teddy bears, masks and pancakes.
               </p>
               <p>
                 UniJam offers students an opportunity to:
@@ -331,7 +332,7 @@ const IndexPage = () => {
                     <tr>
                       <td>What is the theme?</td>
                       <td>
-                        The theme this year is '<i>connections</i>'. Bonus marks are available for including the suprise twist elements of teddy bears, masks and pancakes.
+                        The theme this year is '<i>connections</i>'. Bonus points are available for including the suprise twist elements of teddy bears, masks and pancakes.
                       </td>
                     </tr>
                     <tr>
@@ -393,7 +394,7 @@ const IndexPage = () => {
             <div className="container">
               <h3>Sign Up</h3>
               <p>
-                <a href="https://unijam.org.au/signup" target="_onblank">Click here to sign up!</a>
+                <b>Sign ups are now closed.</b>
               </p>
               <p>
                 You are welcome to organise a team of up to four before the event. Only one member of your team should complete the above form.
@@ -403,9 +404,6 @@ const IndexPage = () => {
               </p>
               <p>
                 Feel free to <a className="text" href="#eight">reach out to us</a> if you are having any problems finding or registering a team.
-              </p>
-              <p>
-                <strong>Registration closes on the 16th of August.</strong>
               </p>
             </div>
           </section>
