@@ -147,6 +147,20 @@ const IndexPage = () => {
                   </li>
                 </ul>
               </p>
+
+              <hr/>
+              <p>
+              <b>Thanks to all who participated in UniJam 2020! Congratulations to the winners:</b>
+              </p>
+              <p>
+              <div><b>1st Place:</b> Bob the Brown-noser by Cynthia Joseph, Kyla Canares, Mandy Kowara and Stella Li</div>
+              <div><b>2nd Place:</b> The Lost Shards of Time by Walter Van, Jia Zhe Goh, Deborah Alice Lam and Pooja Kayyalathodi</div>
+              <div><b>3rd Place:</b> Doomed by Tony Dang, Jennifer Xiang, Stephen He and James Sun</div>
+              <div><b>Most Fun:</b> Soul Bound by Luke Hawkins, Jessica Hammer and Xiaochen Hou</div>
+              <div><b>Most Thematic:</b> The Missing Link by Denzel Joaquin Tano, Hans Wijaya and Kai Ying Lim</div>
+              <div><b>Most Original:</b> The Search by Chenghao Li, Yifei Zhu and Daniel Mou</div>
+            </p>
+            <p>Check out all 28 amazing games made by our contestants <a target="_blank" href="https://itch.io/jam/unimelbgamejam/entries">here</a> </p>
             </div>
           </section>
 
